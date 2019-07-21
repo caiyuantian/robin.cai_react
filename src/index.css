@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+#header {
+  background-color: black;
+  color: white;
+  text-align: right;
+  padding: 1px;
+}
+
+#left {
+  width: 470px;
+  float: left;
+}
+
+#filter {
+  background-color: #eeeeee;
+  height: 300px;
+  width: 150px;
+  text-align: left;
+  float: left;
+  padding: 5px;
+}
+
+#filter-result {
+  width: 300px;
+  height: 600px;
+  overflow: auto;
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+  float: right;
+  padding: 5px;
+}
+
+#filter-result::-webkit-scrollbar { /* WebKit */
+  width: 0;
+  height: 0;
+}
+
+#main {
+  float: right;
+  padding: 10px;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.text-image:hover {
+  background-color: rgb(175, 175, 180);
+}
+
+.img-group {
+  position: relative;
+  display: inline-block;
+}
+
+.img-tip {
+  position: absolute;
+  display: none;
+  left: 30px;
+  top: 40px;
+}
+
+.img-tip button {
+  border:none;
+  background: rgba(216, 177, 93, 0.5);
+  margin-right: 10px;
+  font-weight: bold;
+  color: white;
+}
+
+
+.img-group:hover .img-tip {
+  display: block;
+}
+
+
+#pcity {
+  text-align: left;
+  font-size: 12px;
+  margin: 1px;
+}
+
+#paddress {
+  text-align: left;
+  font-weight: bold;
+  margin: 1px;
+}
