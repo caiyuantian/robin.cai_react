@@ -1,5 +1,5 @@
 # robin.cai_react
-A react coding challenge
+This is done by react, redux and saga, please install dependency packages first.
 
 # Installation
 git clone https://github.com/caiyuantian/robin.cai_react.git  
